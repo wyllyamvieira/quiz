@@ -46,11 +46,12 @@ class questao {
    }
  }
  let questaos = [
-   new questao("O que é atrofia muscular?", ["Uma Parte do corpo", "O musculo do apresentador", "Nada", "Uma doença neuromuscular"], "Uma doença neuromuscular"),
-   new questao("Qual o tratamento para atrofia muscular?", ["Abraçar o musculo","Ficar sem fazer exercicios", "Fisioterapia ou Musculação", "Jogar Free Fire "], "Fisioterapia ou Musculação"),
-   new questao("Quais as causas da atrofia  muscular?", ["Exesso de beleza","Inutilização de um músculo", "Fazer Programas", "Não seguir Carreira Militar"], "Inutilização de um músculo"),
-   new questao("Quais os sintomas da atrofia muscular?", ["Tamanho reduzido associado a fraqueza","Cegueira 100%", "Desmaios", "Paixão em excesso"], "Tamanho reduzido associado a fraqueza")
- ];
+   new questao("O que é Hipertrofia Muscular?", ["Musculo dos Olhos", "O musculo do apresentador", "NDA(Nenhuma das Alternativas)", "Uma doença neuromuscular"], "NDA(Nenhuma das Alternativas)"),
+   new questao("A alimentação influencia na hipertrofia muscular?", ["Não","Talvez", "NDA(Nenhuma das Alternativas)", "Sim"], "Sim"),
+   new questao("Quais são os principais exercícios para a hipertrofia?", ["Levantamento de Peso","Comer", "Dormir", "Nadar"], "Levantamento de Peso"),
+   new questao("Quais principal objetivo da Hipertrofia Muscular?", ["Almento da Massa Muscular","Cegueira 100%", "Desmaios", "Paixão em excesso"], "Almento da Massa Muscular"),
+ 
+  ];
  
  console.log(questaos);
  
